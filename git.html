@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./git.css" rel="stylesheet">
+    <title>GIT</title>
+</head>
+<body>
+    <h1>HOW TU USE GIT</h1>
+    <table>
+            <thead>
+            <tr>
+                <td>
+                    Description
+                </td>
+                <td>
+                    Commandes
+                </td>
+            </tr> 
+            </thead>
+        
+        <tr>
+            <td>
+                Ajouter tout les éléments
+            </td>
+            <td>
+                git add * 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Commit qui permet de le stocker en local<br>
+                (commenter aussi les rajout et autres)
+            </td>
+            <td>
+                git commit -m "nomducommit"
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Envoyer ses commits vers le dépôt distant
+            </td>
+            <td>
+                git push
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Envoyer vers le dépôt distant a une branche spécifique
+            </td>
+            <td>
+                git push origin MA_BRANCH
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Mettre à jour le dépôt local
+            </td>
+            <td>
+                git pull
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Mettre à jour le dépôt local d'une branch spécifique
+            </td>
+            <td>
+                git pull origin MA_BRANCH
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Créer une nouvelle branche ou naviguer entre elle
+            </td>
+            <td>
+                git checkout
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Créer une nouvelle branche ou naviguer entre elle
+            </td>
+            <td>
+                git checkout
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Voir toute les commits d'un repertoire
+            </td>
+            <td>
+                git log
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Retourne la liste des tags disponible
+            </td>
+            <td>
+                git tag
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Initialise un nouveau répertoire
+            </td>
+            <td>
+                git init
+            </td>
+        </tr>
+    </table>
+
+<div id="moreinfos">
+    <h2>Importer un projet:</h2>
+    <p>
+        cd chemin/vers/mon_dossier<br>
+        git add *<br>
+        git commit -m "Initial commit"<br>
+        git push origin main
+    </p>
+    <h2>Initialiser un projet:</h2>
+    <p>
+        cd chemin/vers/mon_dossier<br>
+        echo "# MON_PROJET" >> README.md<br>
+        git init<br>
+        git add README.md<br>
+        git commit -m "Initial commit"<br>
+        git remote add origin ....git<br>
+        git push -u origin master<br>
+    </p>
+</div>
+</body>
+</html>
